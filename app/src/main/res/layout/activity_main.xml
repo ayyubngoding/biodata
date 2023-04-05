@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="-30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+       />
+
+    <Button
+        android:layout_marginTop="-50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mahasiswa Ayyub"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Npm"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="236dp" />
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:id="@+id/editTextTextPersonName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="18sp"
+        android:hint="masukkan npm"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="masukkan nama"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="masukkan alamat"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="496dp" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="457dp" />
+    <RadioGroup
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/idgrup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radiolk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laki-Laki" />
+
+        <RadioButton
+
+            android:id="@+id/radiopr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perempuan" />
+
+    </RadioGroup>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobby"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="457dp" />
+    <CheckBox
+        android:id="@+id/belajar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belajar" />
+    <CheckBox
+
+        android:id="@+id/tidur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tidur" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btntampil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tampil" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btnclear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear" />
+    </LinearLayout>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/texttampil"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
